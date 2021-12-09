@@ -20,3 +20,15 @@ not divisible by 3
 '''
 
 #write your code below
+number = int(input("Enter a number: "))
+
+if number >0:
+  print ("negative")
+
+else:
+  print ("zero")
+
+if number % 3==0:
+  print ("divisible by 3")
+else: 
+  print("not divisible by 3")
